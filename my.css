@@ -1,0 +1,136 @@
+<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,900,100italic,300italic,400italic,500italic,700italic,800italic,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Philosopher:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+<style>
+
+@font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+}
+
+
+#notebook_panel { /* main background */
+    background: #888;
+    color: #f6f6f6;
+}
+
+div.cell { /* set cell width to about 80 chars */
+}
+
+div #notebook { /* centre the content */
+    background: #fff; /* white background for content */
+    margin: auto;
+}
+
+#notebook li { /* More space between bullet points */
+margin-top:0.8em;
+}
+
+/* draw border around running cells */
+div.cell.border-box-sizing.code_cell.running {
+    border: 3px solid #111;
+}
+
+/* Put a solid color box around each cell and its output, visually linking them together */
+div.cell.code_cell {
+    /*background-color: rgba(171,165,131,0.3); /*
+    border-radius: 10px; /* rounded borders */
+    padding: 1em;
+    /*margin-top: 1em;*/
+}
+
+div.text_cell_render{
+    font-family: 'Open Sans', Helvetica;
+    line-height: 140%;
+    font-size: 105%;
+    /*margin-top:15px;*/
+    margin-bottom:8px;
+    text-align:justify;
+}
+
+/* Formatting for header cells */
+.text_cell_render h1 {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 700;
+    font-size: 30pt;
+    line-height: 100%;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.text_cell_render h2 {
+    font-family: 'Open Sans', serif;
+    font-weight: 100;
+    font-size: 24pt;
+    line-height: 100%;
+    display: block;
+    margin-bottom: .3em;
+}    
+
+.text_cell_render h3 {
+    font-family: 'Open Sans', serif;
+    font-weight: 100;
+    font-size: 22pt;
+    line-height: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.text_cell_render h4 {
+    font-family: 'Open Sans', serif;
+}
+
+.text_cell_render h5 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16pt;
+    color: grey;
+    font-style: italic;
+    margin-bottom: .1em;
+    margin-top: 0.1em;
+    display: block;
+}
+
+.text_cell_render h6 {
+    font-family: 'PT Mono', sans-serif;
+    font-weight: 300;
+    font-size: 10pt;
+    color: grey;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+.CodeMirror{
+        font-family: "PT Mono";
+        font-size: 100%;
+}
+
+.output_area {
+	margin-top:20px;
+}
+
+.output_stderr {
+	display:none;
+	}
+
+.output_subarea {
+	display: block;
+    margin: 0 auto;
+}
+
+.output_png img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prompt {
+	visible: false;
+	}
+
+</style>
+
